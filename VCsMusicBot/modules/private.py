@@ -29,7 +29,7 @@ def _start(client, message):
         reply_to_message_id=message.message_id
         )
 
-@Client.on_message(filters.command(["start","start@VCsMusicBot"]) & ~filters.private & ~filters.channel)
+@Client.on_message(filters.command(["start","start@MusicLeoThonBot"]) & ~filters.private & ~filters.channel)
 async def gstart(_, message: Message):
     await message.reply_text(
         f"""**{PROJECT_NAME} is online.**""",
