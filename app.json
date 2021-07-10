@@ -1,9 +1,9 @@
 {
-  "name": "VCsMusicBot",
+  "name": "𝐌𝐔𝐒𝐈𝐂 𝐋𝐄𝐎𝐓𝐇𝐎𝐍",
   "logo": "https://telegra.ph/file/5a24274c6a6455f9a8d8f.png",
   "description": "Open-Source bot to play songs in your Telegram's Group Voice Chat. Powered by PyTgCalls.",
   "keywords": ["music", "voicechat", "telegram"],
-  "repository": "https://github.com/LushaiMusic/VCsMusicBot",
+  "repository": "https://github.com/Leo-ilys/MuSicBoT",
   "stack": "container",
   "env": {
     "SESSION_NAME": {
@@ -31,7 +31,7 @@
     "PROJECT_NAME": {
       "description": "Your MusicPlayer project Name.",
       "required": false,
-      "value": "VCsMusicBot"
+      "value": "𝐌𝐔𝐒𝐈𝐂 𝐋𝐄𝐎𝐓𝐇𝐎𝐍"
     },
     "ASSISTANT_NAME": {
       "description": "Your MusicPlayer's assistant Username without @.",
